@@ -1,0 +1,8 @@
+﻿@model GreetingViewModel
+
+<form method="post" novalidate>
+    <label asp-for="Name">Your name</label>
+    <input asp-for="Name">
+    <span asp-validation-for="Name"></span>
+    <button>Submit</button>
+</form>
